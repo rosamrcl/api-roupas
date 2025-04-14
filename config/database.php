@@ -1,10 +1,4 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_PORT', '3306');
-define('DB_NAME', 'nome_do_banco');
-define('DB_USER', 'usuario');
-define('DB_PASS', 'senha');
-
 try{
     $pdo = new PDO(
         "mysql:host=" . DB_HOST . ";post=" . DB_PORT . ";dbname=" . DB_NAME,
