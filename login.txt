@@ -1,2 +1,2 @@
-senha: L5SoRO6745Sa4ijO2IXEroLO8IHiyO
-login: api-roupas
+Usuário: apiroupas
+Senha:Les86iF2mI17wa3ah7dOWAfo7oXu8A
