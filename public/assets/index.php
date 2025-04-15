@@ -10,7 +10,7 @@ switch ($url) {
         echo "Página Inicial";
         break;
     case 'api':
-        require __DIR__ . '/../api/v1/example.php';
+        require __DIR__ . '/../api/example.php';
         break;
     default:
         http_response_code(404);
