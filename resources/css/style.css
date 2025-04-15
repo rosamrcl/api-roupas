@@ -26,6 +26,9 @@ html::-webkit-scrollbar-thumb {
     background: #E75480;
     border-radius: 5rem;
 }
+section{
+  padding: 5rem 9%;
+}
 
 .header {
     position: fixed;
@@ -92,3 +95,22 @@ html::-webkit-scrollbar-thumb {
     font-size: 2.2rem;
     margin-right: 1.7rem;
   }
+
+  .cadastro .form-cadastro form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    margin: 10px;
+    width: 40rem;
+    padding: 2rem;    
+    box-shadow:  0 .5rem 1rem rgba(0,0,0,.1);
+  }
+  .cadastro .form-cadastro input{
+    background: #fff;
+    border-radius: 10px;
+    border: .1rem solid rgba(0,0,0,.1);  
+    margin: 10px;
+    padding: 10px;
+  }
+
