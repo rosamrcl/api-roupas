@@ -10,11 +10,11 @@ class database
 
         //connection
         $connection = new PDO(
-            'mysql:host='.DB_SERVER.
+            'mysql:host='.DB_HOST.
             ';dbname='.DB_NAME.
             ';charset='.DB_CHARSET,
-            DB_USERNAME,
-            DB_PASSWORD,
+            DB_USER,
+            DB_PASS,
             array(PDO::ATTR_PERSISTENT => true));      
             
         if($debug){
@@ -53,11 +53,11 @@ class database
 
         //connection
         $connection = new PDO(
-            'mysql:host='.DB_SERVER.
+            'mysql:host='.DB_HOST.
             ';dbname='.DB_NAME.
             ';charset='.DB_CHARSET,
-            DB_USERNAME,
-            DB_PASSWORD,
+            DB_USER,
+            DB_PASS,
             array(PDO::ATTR_PERSISTENT => true));   
 
         if($debug){
