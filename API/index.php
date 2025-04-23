@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require_once ('../API/functions.php');
 $produtos = listarProdutos();
 ?>
 
