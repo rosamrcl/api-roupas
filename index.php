@@ -29,7 +29,8 @@ $produtos = listarProdutos();
             <th>ID</th>
             <th>Nome</th>
             <th>Quantidade</th>
-            <th>Descrição</th>                        <th>Preço</th>
+            <th>Descrição</th>
+            <th>Valor</th>
         </tr>
         <?php foreach ($produtos as $produto): ?>
             <tr>
