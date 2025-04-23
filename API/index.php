@@ -16,8 +16,8 @@ $produtos = listarProdutos();
 <header class="header">    
         <a href="#" class="logo">API Roupas</a>
         <nav class="navbar">
-        <a href="./create.php">Adicionar produtos</a>
-        <a href="./index.php">Todos os produtos</a>          
+        <a href="/API/routes/create.php">Adicionar produtos</a>
+        <a href="/API/index.php">Todos os produtos</a>          
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>  
 </header>
