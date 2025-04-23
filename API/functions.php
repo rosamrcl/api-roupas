@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
 require_once 'db.php';
-=======
-require_once('./db.php');
->>>>>>> 0ef7e5957257d8d0da24a86c708ddc8fbe5b9f00
 
 function salvarEmJSON($dados) {
     file_put_contents('data.json', json_encode($dados, JSON_PRETTY_PRINT));
