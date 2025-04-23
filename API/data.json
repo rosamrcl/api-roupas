@@ -8,5 +8,15 @@
         "created_at": null,
         "updated_at": null,
         "deleted_at": null
+    },
+    {
+        "ID_produto": 5,
+        "nome": "blusa",
+        "descricao": "azul",
+        "quantidade": 30,
+        "valor": 20,
+        "created_at": null,
+        "updated_at": null,
+        "deleted_at": null
     }
 ]
