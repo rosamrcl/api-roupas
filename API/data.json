@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "ID_produto": 4,
+        "nome": "cal\u00e7a",
+        "descricao": "jeans azul",
+        "quantidade": 2,
+        "valor": 50,
+        "created_at": null,
+        "updated_at": null,
+        "deleted_at": null
+    }
+]

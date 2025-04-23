@@ -23,21 +23,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Api Roupas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<<<<<<< HEAD:API/update.php
     <link rel="stylesheet" href="./resources/css/style.css">
-=======
-    <link rel="stylesheet" href="./../APP/resources/css/style.css">
->>>>>>> 0ef7e5957257d8d0da24a86c708ddc8fbe5b9f00:API/routes/update.php
 </head>
 <body>
 <header class="header">    
         <a href="#" class="logo">API Roupas</a>
         <nav class="navbar">
-<<<<<<< HEAD:API/update.php
         <a href="./create.php">Adicionar produtos</a>
-=======
-        <a href="./routes/create.php">Adicionar produtos</a>
->>>>>>> 0ef7e5957257d8d0da24a86c708ddc8fbe5b9f00:API/routes/update.php
         <a href="./index.php">Todos os produtos</a>          
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>  
