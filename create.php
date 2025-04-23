@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="number" name="quantidade" required maxlength="10" min="0" max="9999999999" class="box" placeholder="Digite quantidade do produto">           
             <label for="valor">Valor:</label>
             <input type="number" name="valor" required maxlength="10" min="0" max="9999999999" class="box" placeholder="Digite o valor do produto">
-            <input type="submit" value="Adicionar livro" class="btn" name="add_product">
+            <input type="submit" value="Adicionar produto" class="btn" name="add_product">
         </form>
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
