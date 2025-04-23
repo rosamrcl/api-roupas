@@ -1,5 +1,5 @@
 <?php
-require 'functions.php';
+require_once ('../API/functions.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     cadastrarProduto($_POST['nome'], $_POST['descricao'], $_POST['quantidade'], $_POST['valor']);
