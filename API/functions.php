@@ -1,5 +1,5 @@
 <?php
-require_once('../db.php');
+require_once('./db.php');
 
 function salvarEmJSON($dados) {
     file_put_contents('data.json', json_encode($dados, JSON_PRETTY_PRINT));
