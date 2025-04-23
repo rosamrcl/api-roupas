@@ -39,8 +39,8 @@ $produtos = listarProdutos();
             <td><?= $produto['quantidade'] ?></td>
             <td><?= $produto['valor']?></td>            
             <td>
-                <a class="btn" href="update.php?id=<?= $produto['nome'] ?>">Editar</a> 
-                <a class="delete-btn" href="delete.php?id=<?= $produto['nome'] ?>" onclick="return confirm('Deseja deletar?')">Deletar</a>
+                <a class="btn" href="update.php?id=<?= $produto['ID_produto'] ?>">Editar</a> 
+                <a class="delete-btn" href="delete.php?id=<?= $produto['ID_produto'] ?>" onclick="return confirm('Deseja deletar?')">Deletar</a>
             </td>
             </tr>
             <?php endforeach; ?>
