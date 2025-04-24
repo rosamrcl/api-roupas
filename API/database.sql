@@ -16,25 +16,26 @@
 
 
 -- Copiando estrutura do banco de dados para api-roupas
-DROP DATABASE IF EXISTS `api-roupas`;
 CREATE DATABASE IF NOT EXISTS `api-roupas` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `api-roupas`;
 
 -- Copiando estrutura para tabela api-roupas.produtos
-DROP TABLE IF EXISTS `produtos`;
 CREATE TABLE IF NOT EXISTS `produtos` (
   `ID_produto` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(50) DEFAULT NULL,
   `descricao` varchar(50) DEFAULT NULL,
-  `quantidade` int NOT NULL DEFAULT '0',
-  `valor` float NOT NULL DEFAULT '0',
+  `quantidade` int DEFAULT '0',
+  `valor` float DEFAULT '0',
   `created_at` datetime DEFAULT NULL,
   `updated_at` datetime DEFAULT NULL,
   `deleted_at` datetime DEFAULT NULL,
   PRIMARY KEY (`ID_produto`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
--- Exportação de dados foi desmarcado.
+-- Copiando dados para a tabela api-roupas.produtos: ~0 rows (aproximadamente)
+INSERT INTO `produtos` (`ID_produto`, `nome`, `descricao`, `quantidade`, `valor`, `created_at`, `updated_at`, `deleted_at`) VALUES
+	(1, 'calça', 'jeans mon', 20, 50, '2025-04-24 15:45:46', '2025-04-24 15:45:48', NULL),
+	(3, 'blusa', 'azul', 10, 20.5, NULL, NULL, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

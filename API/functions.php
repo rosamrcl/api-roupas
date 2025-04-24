@@ -19,10 +19,10 @@ function cadastrarProduto($nome, $descricao, $quantidade, $valor) {
     $stmt->execute([$nome, $descricao, $quantidade, $valor]);
 }
 
-function buscarProduto($nome) {
+function buscarProduto($id) {
     global $pdo;
-    $stmt = $pdo->prepare("SELECT * FROM produtos WHERE nome) = ?");
-    $stmt->execute([$nome]);
+    $stmt = $pdo->prepare("SELECT * FROM produtos WHERE ID_produto = ?");
+    $stmt->execute([$id]);
     return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
@@ -34,6 +34,6 @@ function atualizarProduto($id, $nome, $descricao, $quantidade, $valor) {
 
 function deletarProduto($id) {
     global $pdo;
-    $stmt = $pdo->prepare("DELETE FROM produtos WHERE id = ?");
+    $stmt = $pdo->prepare("DELETE FROM produtos WHERE ID_produto = ?");
     $stmt->execute([$id]);
 }
