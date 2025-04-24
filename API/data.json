@@ -12,7 +12,7 @@
     {
         "ID_produto": 3,
         "nome": "blusa",
-        "descricao": "azul",
+        "descricao": "preto",
         "quantidade": 10,
         "valor": 20.5,
         "created_at": null,
