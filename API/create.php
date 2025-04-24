@@ -1,9 +1,9 @@
 <?php
-require_once ('../API/functions.php');
+require_once ('functions.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     cadastrarProduto($_POST['nome'], $_POST['descricao'], $_POST['quantidade'], $_POST['valor']);
-    header("Location: ../index.php");
+    header("Location: index.php");
     exit;
 }
 ?>

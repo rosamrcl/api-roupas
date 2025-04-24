@@ -32,8 +32,8 @@ function atualizarProduto($id, $nome, $descricao, $quantidade, $valor) {
     $stmt->execute([$nome, $descricao, $quantidade, $valor, $id]);
 }
 
-function deletarProduto($nome) {
+function deletarProduto($id) {
     global $pdo;
-    $stmt = $pdo->prepare("DELETE FROM produtos WHERE nome = ?");
-    $stmt->execute([$nome]);
+    $stmt = $pdo->prepare("DELETE FROM produtos WHERE id = ?");
+    $stmt->execute([$id]);
 }

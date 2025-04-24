@@ -1,5 +1,5 @@
 <?php
-require_once ('../functions.php');
+require_once ('./functions.php');
 
 $id = $_GET['id'] ?? null;
 $produto = buscarProduto($id);
