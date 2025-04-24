@@ -3,20 +3,10 @@
         "ID_produto": 1,
         "nome": "cal\u00e7a",
         "descricao": "jeans mon",
-        "quantidade": 20,
+        "quantidade": 25,
         "valor": 50,
         "created_at": "2025-04-24 15:45:46",
         "updated_at": "2025-04-24 15:45:48",
-        "deleted_at": null
-    },
-    {
-        "ID_produto": 3,
-        "nome": "blusa",
-        "descricao": "preto",
-        "quantidade": 10,
-        "valor": 20.5,
-        "created_at": null,
-        "updated_at": null,
         "deleted_at": null
     }
 ]
