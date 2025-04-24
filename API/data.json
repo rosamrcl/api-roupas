@@ -1,20 +1,10 @@
 [
     {
-        "ID_produto": 4,
-        "nome": "cal\u00e7a",
-        "descricao": "jeans azul",
-        "quantidade": 2,
-        "valor": 50,
-        "created_at": null,
-        "updated_at": null,
-        "deleted_at": null
-    },
-    {
-        "ID_produto": 5,
-        "nome": "blusa",
-        "descricao": "azul",
+        "ID_produto": 1,
+        "nome": "Cal\u00e7a",
+        "descricao": "Jeans Mom",
         "quantidade": 30,
-        "valor": 20,
+        "valor": 80,
         "created_at": null,
         "updated_at": null,
         "deleted_at": null

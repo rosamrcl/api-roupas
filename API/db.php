@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$db = 'lojarosa';
+$db = 'api-roupas';
 $user = 'root';
 $pass = '';
 
