@@ -38,7 +38,7 @@ $produtos = listarProdutos();
             <td><?= $produto['nome'] ?></td>
             <td><?= $produto['descricao'] ?></td>
             <td><?= $produto['quantidade'] ?></td>
-            <td><?= $produto['valor']?></td>            
+            <td>R$<?= $produto['valor']?></td>            
             <td>
                 <a class="btn" href="update.php?id=<?= $produto['ID_produto'] ?>">Editar</a> 
                 <a class="delete-btn" href="delete.php?id=<?= $produto['ID_produto'] ?>" onclick="return confirm('Deseja deletar?')">Deletar</a>
