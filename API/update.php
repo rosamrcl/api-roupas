@@ -48,6 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button class="btn" type="submit">Atualizar</button>
         </form>
     </section>
-   
+
 </body>
 </html>
